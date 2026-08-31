@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans";
+  background: #e4d9c8;
+  height: 100vh;
+}
+
+.carte {
+  display: flex;
+  width: 420px;
+  padding: 48px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+  border: 1px solid #1a1614;
+  background: #f7f1e8;
+}
+
+.categorie {
+  color: #b44a2a;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.h1 {
+  color: #1a1614;
+  font-family: Fraunces;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px; /* 116.667% */
+  letter-spacing: -0.4px;
+}
+
+.description {
+  color: #5c564f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.reservation {
+  color: #b44a2a;
+  font-size: 16px;
+}
